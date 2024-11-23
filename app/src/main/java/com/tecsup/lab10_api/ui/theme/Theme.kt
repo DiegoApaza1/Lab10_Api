@@ -9,6 +9,7 @@ import androidx.compose.material3.dynamicDarkColorScheme
 import androidx.compose.material3.dynamicLightColorScheme
 import androidx.compose.material3.lightColorScheme
 import androidx.compose.runtime.Composable
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 
 private val DarkColorScheme = darkColorScheme(
@@ -32,6 +33,12 @@ private val LightColorScheme = lightColorScheme(
     onSurface = Color(0xFF1C1B1F),
     */
 )
+val DisneyBlue = Color(0xFF0D253F)
+val HighlightBlue = Color(0xFF01B4E4)
+val LightGray = Color(0xFFA0A0A0)
+val DarkGray = Color(0xFF1B3A57)
+val BackgroundDark = Color(0xFF000000)
+
 
 @Composable
 fun Lab10_apiTheme(
